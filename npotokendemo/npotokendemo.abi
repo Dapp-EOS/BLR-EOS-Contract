@@ -1,0 +1,34 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Thu May  2 21:09:39 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "connector_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "supply",
+                    "type": "asset"
+                },
+                {
+                    "name": "balance",
+                    "type": "asset"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [],
+    "tables": [
+        {
+            "name": "connector_t",
+            "type": "connector_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
